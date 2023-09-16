@@ -2,7 +2,7 @@
     <footer>
         <div class="footer-container">
             <ul class="footer-logo">
-                <img :src="`${url}/uploads/Stempel_cccb81baef.png`" alt="">
+              <img :src="url + footer.data.attributes.FooterLogo.data.attributes.url" alt="" />
             </ul>
             <ul>
                 <h4>Was jetzt?</h4>
@@ -29,7 +29,11 @@
 </template>
 
 <script setup lang="ts">
- const url = useStrapiMedia();
+    const url = useStrapiMedia();
+    const { find } = useStrapi();
+    const {data: footer} = await useAsyncData('general', () => find('general', {
+        populate: '*',
+    }));
 </script>
 
 <style lang="scss">

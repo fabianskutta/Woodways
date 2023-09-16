@@ -49,7 +49,7 @@ const _inlineRuntimeConfig = {
   },
   "public": {
     "strapi": {
-      "url": "http://localhost:1337",
+      "url": "https://cms.woodways.ms/",
       "prefix": "/api",
       "version": "v4",
       "cookie": {},
