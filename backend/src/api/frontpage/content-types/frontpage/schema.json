@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "frontpages",
+  "info": {
+    "singularName": "frontpage",
+    "pluralName": "frontpages",
+    "displayName": "Frontpage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Btn1Text": {
+      "type": "string"
+    },
+    "Btn1Link": {
+      "type": "string"
+    },
+    "Btn2Text": {
+      "type": "string"
+    },
+    "Btn2Link": {
+      "type": "string"
+    }
+  }
+}
