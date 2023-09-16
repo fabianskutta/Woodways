@@ -5,9 +5,6 @@ export default defineNuxtConfig({
     strict: true,
   },
   modules: ['@nuxtjs/strapi'],
-  strapi: {
-    url: process.env.STRAPI_URL || 'http://localhost:1337',
-  },
   runtimeConfig: {
     public: {
        strapi: {
