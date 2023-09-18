@@ -1,9 +1,10 @@
 {
     "version": "1.0.0",
-    "name": "Woodways",
+    "name": "woodways.ms",
     "scripts": {
         "dev": "concurrently -n BACKEND,FRONTEND -c cyan,magenta \"npm run start:backend\" \"npm run start:frontend\"",
         "start:backend": "cd backend && npm run develop",
+        "build:backend": "cd backend && npm run build",
         "start:frontend": "cd frontend && npm run dev"
     },
     "devDependencies": {

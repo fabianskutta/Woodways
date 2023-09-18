@@ -12,9 +12,6 @@ export default defineNuxtConfig({
        },
     }
  }, 
-  css: [
-    '@/assets/css/main.scss',
-  ],
   plugins: [
     './plugins/markdown.ts',
   ],
