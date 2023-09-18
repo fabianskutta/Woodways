@@ -62,7 +62,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #0000002f;
+    background-color: #00000018;
     transition: .3s;
     color: #fff;
 

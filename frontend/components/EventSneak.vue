@@ -38,7 +38,7 @@ defineProps<{event: Event;}>();
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    background-color: #0000002f;
+    background-color: #00000018;
     color: #fff;
 
     h3 {

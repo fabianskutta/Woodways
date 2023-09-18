@@ -3,12 +3,13 @@
     <Header />
     <Teaser />
     <div class="page-content">
-        <h2 class="main-title">Nächsten Events</h2>
+        <h2 class="main-title">Nächsten Events & Work-Shops</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>
         <div class="event-btn-all"><Btn1 href="/eventlocation">Alle Events ansehen</Btn1></div>
     </div>
+    <OpeningTimes />
 </template>
 
 <script setup lang="ts">
@@ -24,7 +25,7 @@
     });
 
     useHead({
-  titleTemplate: () => `Woodways - der kreative Hofladen`,
+  titleTemplate: () => `Woodways - Der kreative Hofladen`,
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
   meta: [{ name: "description", content: "My amazing site." }],

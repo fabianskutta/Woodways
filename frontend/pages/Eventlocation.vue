@@ -1,13 +1,12 @@
 <template>
-    <header>
-            <div class="container">
-                <h1>Eventlocation</h1>
-            </div>
-            <img class="bg" :src="`${url}/uploads/IMG_20230908_WA_0023_0a28f37bb8.jpg`">
-    </header>
     <div class="page-content">
+        <h2 class="main-title">Veranstaltungen</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
+        </div>
+        <h2 class="main-title">Work-Shops</h2>
+        <div class="events">
+            <EventSneak v-for="event in works" :event="event" :key="event.Slug"/>
         </div>
     </div>
 </template>
@@ -15,7 +14,17 @@
 <script setup lang="ts">
     const url = useStrapiMedia();
     const { find } = useStrapi();
-    const {data: events} = await useAsyncData('events', () => find('events/?populate=*&sort=Date'), {
+    const {data: events} = await useAsyncData('events', () => find('events/?filters[Type][$eq]=Event&populate=*&sort=Date'), {
+        transform: (data: any) => {
+            if (data.data) {
+                return data.data.map((event: any) => event.attributes)
+            } else {
+                return null;
+            }
+        }
+    });
+
+    const {data: works} = await useAsyncData('works', () => find('events/?filters[Type][$eq]=Work-Shop&populate=*&sort=Date'), {
         transform: (data: any) => {
             if (data.data) {
                 return data.data.map((event: any) => event.attributes)

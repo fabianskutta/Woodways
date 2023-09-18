@@ -27,6 +27,10 @@ a {
   cursor: pointer;
 }
 
+:target {
+  scroll-margin-top: 150px;
+}
+
 .page-content {
   width: 1000px;
   margin: 0 auto;
