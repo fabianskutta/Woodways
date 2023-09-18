@@ -40,6 +40,7 @@
 <style lang="scss">
 .events {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -47,4 +48,5 @@
     display: flex;
     justify-content: center;
 }
+
 </style>

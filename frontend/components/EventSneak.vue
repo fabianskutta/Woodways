@@ -20,6 +20,7 @@ defineProps<{event: Event;}>();
     position: relative;
     flex-basis: calc(33.333% - 2rem);
     height: 450px;
+    width: 100%;
     margin: 0 1rem 2rem;
     overflow: hidden;
     display: flex;
@@ -39,10 +40,6 @@ defineProps<{event: Event;}>();
     background-color: #0000002f;
     color: #fff;
 
-    img {
-        width: 100%;
-    }
-
     h3 {
         font-size: 27px;
         margin: 0;
@@ -52,6 +49,23 @@ defineProps<{event: Event;}>();
         font-weight: 100;
         margin: 0 0 10px 0;
     }
-
 }
+
+
+.event-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 1000px) {
+    .event-sneak {
+        flex-basis: calc(50% - 2rem);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .event-sneak {
+        flex-basis: calc(100% - 2rem);
+    }
+  }
 </style>

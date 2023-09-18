@@ -51,5 +51,20 @@ header {
 
 .bg {
         width: 100%;
+        object-fit: cover;
     }
+
+
+@media screen and (max-width: 900px) {
+    .container {
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+    .bg {
+        height: 100%;
+    }
+}
 </style>
