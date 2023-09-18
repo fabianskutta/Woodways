@@ -21,6 +21,20 @@
         }
     });
 
+    useHead({
+  titleTemplate: () => `Woodways - der kreative Hofladen`,
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  charset: "utf-8",
+  meta: [{ name: "description", content: "My amazing site." }],
+  script: [
+    {
+      src: 'https://kit.fontawesome.com/97e635c580.js',
+      type: "text/javascript",
+      async: true,
+    },
+  ],
+});
+
 </script>
 
 <style lang="scss">
