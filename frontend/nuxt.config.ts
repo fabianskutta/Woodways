@@ -5,13 +5,9 @@ export default defineNuxtConfig({
     strict: true,
   },
   modules: ['@nuxtjs/strapi'],
-  runtimeConfig: {
-    public: {
-       strapi: {
-         url: 'https://cms.woodways.ms/'
-       },
-    }
- }, 
+  strapi: {
+    url: 'https://cms.woodways.ms',
+  },
   plugins: [
     './plugins/markdown.ts',
   ],
