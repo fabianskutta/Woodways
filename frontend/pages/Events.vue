@@ -27,5 +27,15 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+.events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.event-btn-all {
+    display: flex;
+    justify-content: center;
+}
 </style>

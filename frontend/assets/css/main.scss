@@ -44,5 +44,60 @@ a {
 }
 
 
+
+header {
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: absolute;
+  height: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0000004f;
+
+  img {
+      height: 50%;
+      width: auto;
+  }
+
+  h1 {
+      padding-top: 3rem;
+      color: #fff;
+      font-size: 4rem;
+  }
+
+  .header-btns {
+      display: flex;
+  }
+}
+
+.bg {
+      width: 100%;
+      object-fit: cover;
+  }
+
+
+@media screen and (max-width: 900px) {
+  .container {
+
+      img {
+          height: auto;
+          width: 100%;
+      }
+  }
+  .bg {
+      height: 100%;
+  }
+}
+
+
 @import url('https://fonts.cdnfonts.com/css/prater-sans');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Trocchi&display=swap');
