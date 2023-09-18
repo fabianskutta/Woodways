@@ -2,10 +2,9 @@
     <nav id="nav">
         <ul class="nav-links">
             <li><a class="menuItem" href="/">Home</a></li>
-            <li><a class="menuItem" href="/store">Store</a></li>
+            <li><a class="menuItem" href="/conceptstore">Conceptstore</a></li>
             <li><a class="menuItem" href="/cafe">Cafe</a></li>
-            <li><a class="menuItem" href="/events">Events</a></li>
-            <li><a class="menuItem" href="/work-shops">Work-Shops</a></li>
+            <li><a class="menuItem" href="/eventlocation">Eventlocation</a></li>
         </ul>
         <a href="/">
             <img class="logo" :src="url + general.data.attributes.Logo.data.attributes.url" alt="" />

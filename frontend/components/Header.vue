@@ -14,9 +14,9 @@
     const {data: frontpage} = await useAsyncData('Frontpage', () => find('Frontpage?populate=*'), {});
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 header {
-    height: 600px;
+    height: 80vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ header {
     background-color: #0000004f;
 
     img {
-        height: 50%;
+        height: 350px;
         width: auto;
     }
 
@@ -42,10 +42,12 @@ header {
         padding-top: 3rem;
         color: #fff;
         font-size: 4rem;
+        text-shadow: 0 0 40px rgba(0,0,0,.69);
     }
 
     .header-btns {
         display: flex;
+        margin-bottom: 100px;
     }
 }
 
@@ -62,9 +64,17 @@ header {
             height: auto;
             width: 100%;
         }
+
+        .header-btns {
+        margin-bottom: 0;
+    }
     }
     .bg {
         height: 100%;
     }
+
+    header {
+    height: 70vh;
+}
 }
 </style>

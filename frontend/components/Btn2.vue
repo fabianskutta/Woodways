@@ -41,5 +41,10 @@ export default {
   align-items: center;
   margin: 0 5px 0 0;
   cursor: pointer;
+  transition: .3s;
+}
+
+.btn2:hover{
+  transform: scale(1.03);
 }
 </style>

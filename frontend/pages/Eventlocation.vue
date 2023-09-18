@@ -1,7 +1,7 @@
 <template>
     <header>
             <div class="container">
-                <h1>Events</h1>
+                <h1>Eventlocation</h1>
             </div>
             <img class="bg" :src="`${url}/uploads/IMG_20230908_WA_0023_0a28f37bb8.jpg`">
     </header>

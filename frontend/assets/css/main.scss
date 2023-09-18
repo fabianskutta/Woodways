@@ -30,9 +30,15 @@ a {
 .page-content {
   width: 1000px;
   margin: 0 auto;
-  padding: 51px 0;
+  padding: 20px 0 51px 0;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,48 +48,6 @@ a {
     box-sizing: border-box;
   }
 }
-
-
-
-header {
-  height: 600px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  position: absolute;
-  height: inherit;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #0000004f;
-
-  img {
-      height: 50%;
-      width: auto;
-  }
-
-  h1 {
-      padding-top: 3rem;
-      color: #fff;
-      font-size: 4rem;
-  }
-
-  .header-btns {
-      display: flex;
-  }
-}
-
-.bg {
-      width: 100%;
-      object-fit: cover;
-  }
-
 
 @media screen and (max-width: 900px) {
   .container {

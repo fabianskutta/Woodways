@@ -26,7 +26,8 @@ defineProps<{event: Event;}>();
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 20px;
+    transition: .3s;
 }
 
 .event-container {
@@ -43,6 +44,7 @@ defineProps<{event: Event;}>();
     h3 {
         font-size: 27px;
         margin: 0;
+        text-shadow: 0 0 40px rgba(0,0,0,.69);
     }
 
     p {
@@ -51,7 +53,9 @@ defineProps<{event: Event;}>();
     }
 }
 
-
+.event-sneak:hover {
+    transform: scale(1.04);
+}
 .event-bg {
     width: 100%;
     height: 100%;

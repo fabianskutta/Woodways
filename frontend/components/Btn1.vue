@@ -40,5 +40,10 @@ export default {
   margin: 0 5px 0 0;
   cursor: pointer;
   width: fit-content;
+  transition: .3s;
+}
+
+.btn1:hover{
+  transform: scale(1.03);
 }
 </style>

@@ -1,11 +1,13 @@
 <template>
     <h1>Home</h1>
     <Header />
+    <Teaser />
     <div class="page-content">
+        <h2 class="main-title">Nächsten Events</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>
-        <div class="event-btn-all"><Btn1 href="/events">Alle Events</Btn1></div>
+        <div class="event-btn-all"><Btn1 href="/eventlocation">Alle Events ansehen</Btn1></div>
     </div>
 </template>
 
@@ -48,5 +50,6 @@
     display: flex;
     justify-content: center;
 }
+
 
 </style>
