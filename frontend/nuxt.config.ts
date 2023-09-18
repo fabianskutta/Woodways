@@ -8,6 +8,9 @@ export default defineNuxtConfig({
   strapi: {
     url: 'https://cms.woodways.ms',
   },
+  css: [
+    '@/assets/css/main.scss',
+  ],
   plugins: [
     './plugins/markdown.ts',
   ],
