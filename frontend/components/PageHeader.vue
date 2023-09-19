@@ -4,7 +4,7 @@
             <div class="text-container">
                 <h1>{{ title }}</h1>
                 <p><slot></slot></p>
-                <Btn1 v-if="Btn" :href="BntLink">{{ Btn }}</Btn1>
+                <div class="event-btn-all"><Btn1 target="_blank" v-if="Btn" :href="BtnLink">{{ Btn }}</Btn1></div>
             </div>
         </div>
             <img class="bg" :src="bg">
@@ -35,6 +35,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.event-btn-all {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
 header {
     height: 70vh;
     overflow: hidden;
@@ -46,6 +54,9 @@ header {
 .text-container {
     max-width: 1000px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container {

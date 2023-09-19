@@ -3,7 +3,7 @@
     <Header />
     <Teaser />
     <div class="page-content">
-        <h2 class="main-title">Nächsten Events & Work-Shops</h2>
+        <h2 class="main-title">Nächsten Veranstaltungen & Work-Shops</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>
@@ -40,7 +40,7 @@
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .events {
     display: flex;
     justify-content: center;

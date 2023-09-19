@@ -65,6 +65,10 @@
     },
     "PageBtnLink": {
       "type": "string"
+    },
+    "PageDescription": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

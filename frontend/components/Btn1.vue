@@ -4,6 +4,7 @@
     :is="to ? 'nuxt-link' : href ? 'a' : 'button'"
     :to="to"
     :href="href"
+    :target="target"
     @click="$emit('click')"
   >
     <slot></slot>
@@ -19,6 +20,10 @@ export default {
         default: null
       },
       href: {
+        type: String,
+        default: null
+      },
+      target: {
         type: String,
         default: null
       }
@@ -37,7 +42,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 5px 0 0;
+  margin: 0 2.5px;
   cursor: pointer;
   width: fit-content;
   transition: .3s;

@@ -12,6 +12,8 @@
 
 <style lang="scss" scoped>
 .text {
+  p {
     font-family: 'Roboto', sans-serif;
+  }
 }
 </style>

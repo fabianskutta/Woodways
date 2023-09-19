@@ -1,6 +1,6 @@
 <template>
     <PageHeader  title="Datenschutz" bg="https://cms.woodways.ms/uploads/375067098_994424788597686_2871287286949219759_n_92e0a3f6da.jpg"></PageHeader>
-    <div class="page-content" v-html="$markdown.render(legal.data.attributes.Datenschutz)">
+    <div class="page-content text" v-html="$markdown.render(legal.data.attributes.Datenschutz)">
     </div>
 </template>
 
@@ -11,4 +11,9 @@
 </script>
 
 <style lang="scss" scoped>
+.text {
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+}
 </style>

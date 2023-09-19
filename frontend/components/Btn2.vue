@@ -39,7 +39,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 5px 0 0;
+  margin: 0 2.5px;
   cursor: pointer;
   transition: .3s;
 }
