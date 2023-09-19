@@ -13,22 +13,26 @@
   "pluginOptions": {},
   "attributes": {
     "Titel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Slug": {
       "type": "uid",
-      "targetField": "Titel"
+      "targetField": "Titel",
+      "required": true
     },
     "Date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "BtnText": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "EventSneakCover": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -39,7 +43,7 @@
     "PageCover": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -52,7 +56,15 @@
       "enum": [
         "Event",
         "Work-Shop"
-      ]
+      ],
+      "required": true,
+      "default": "Event"
+    },
+    "PageBtnText": {
+      "type": "string"
+    },
+    "PageBtnLink": {
+      "type": "string"
     }
   }
 }

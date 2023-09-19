@@ -1,11 +1,5 @@
 <template>
-    <header>
-        <div class="container">
-            <h1>{{ eventslug.Titel }}</h1>
-            <p>{{ new Date(eventslug.Date).toLocaleDateString('de-DE') }}</p>
-        </div>
-        <img class="bg" :src="url + eventslug.PageCover.data.attributes.url">
-    </header>
+    <PageHeader  :title="eventslug.Titel" :bg="url + eventslug.PageCover.data.attributes.url">{{ new Date(eventslug.Date).toLocaleDateString('de-DE') }}</PageHeader>
     </template>
     
     <script setup lang="ts">

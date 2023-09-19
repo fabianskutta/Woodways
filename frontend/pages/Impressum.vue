@@ -1,10 +1,5 @@
 <template>
-    <header>
-            <div class="container">
-                <h1>Impressum</h1>
-            </div>
-            <img class="bg" :src="`${url}/uploads/IMG_20230908_WA_0023_0a28f37bb8.jpg`">
-    </header>
+    <PageHeader  title="Impressum" bg="https://cms.woodways.ms/uploads/375067098_994424788597686_2871287286949219759_n_92e0a3f6da.jpg"></PageHeader>
     <div class="page-content text" v-html="$markdown.render(legal.data.attributes.Impressum)">
     </div>
 </template>
