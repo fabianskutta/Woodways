@@ -22,7 +22,7 @@
       "required": true
     },
     "Date": {
-      "type": "date",
+      "type": "datetime",
       "required": true
     },
     "BtnText": {
