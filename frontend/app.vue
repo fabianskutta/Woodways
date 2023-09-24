@@ -3,5 +3,6 @@
   <main>
     <NuxtPage />
   </main>
+  <Map />
   <Footer />
 </template>

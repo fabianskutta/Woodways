@@ -3,7 +3,7 @@
         <ul class="nav-links">
             <li><a class="menuItem" href="/">Home</a></li>
             <li><a class="menuItem" href="/conceptstore">Conceptstore</a></li>
-            <li><a class="menuItem" href="/cafe">Cafe</a></li>
+            <li><a class="menuItem" href="/cafe">Café</a></li>
             <li><a class="menuItem" href="/eventlocation">Eventlocation</a></li>
         </ul>
         <a href="/">

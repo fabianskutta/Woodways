@@ -1,5 +1,5 @@
 <template>
-    <PageHeader :Btn="eventslug.PageBtnText" :BtnLink="eventslug.PageBtnLink" :title="eventslug.Titel" :bg="url + eventslug.PageCover.data.attributes.url">{{ new Date(eventslug.Date).toLocaleDateString('de-DE') }}</PageHeader>
+    <PageHeader :Btn="eventslug.PageBtnText" :BtnLink="eventslug.PageBtnLink" :title="eventslug.Titel" :bg="url + eventslug.PageCover.data.attributes.url">{{ new Date(eventslug.Date).toLocaleDateString('de-DE') + " " + new Date(eventslug.Date).toLocaleTimeString('de-DE') + " Uhr"}}</PageHeader>
     <div class="page-content text" v-html="$markdown.render(eventslug.PageDescription)">
     </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <PageHeader  title="Eventlocation" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit</PageHeader>
+    <PageHeader  title="Eventlocation" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">Bei uns finden regelmäßig Veranstaltungen & Work-Shops statt</PageHeader>
     <div class="page-content">
         <h2 class="main-title">Veranstaltungen</h2>
         <div class="events">

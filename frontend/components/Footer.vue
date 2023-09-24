@@ -6,8 +6,8 @@
             </ul>
             <ul>
                 <h4>Was jetzt?</h4>
-                <li><a href="/events">Events</a></li>
-                <li><a href="/work-shops">Work-Shops</a></li>
+                <li><a href="/conceptstore">Conceptstore</a></li>
+                <li><a href="/cafe">Café</a></li>
             </ul>
             <ul>
                 <h4>Rechtliches</h4>
@@ -16,8 +16,8 @@
             </ul>
             <ul class="socialmedia">
                 <h4>Folge uns</h4>
-                <a target="_blank" href="https://www.instagram.com/craftbeermusicfestival/"><i class="fab fa-instagram"></i></a>
-                <a target="_blank" href="https://www.facebook.com/craftbeer.festival.sendenhorst/"><i class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/woodways_hofladen/"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.facebook.com/EBikesausHolzimMuensterland"><i class="fab fa-facebook"></i></a>
             </ul>
         </div>
         <div class="copyright">© Woodways {{ new Date().getFullYear() }}&nbsp;
@@ -36,6 +36,11 @@
 </script>
 
 <style lang="scss">
+.iframe {
+  margin: 0;
+  padding: 0;
+}
+
 footer {
     background-color: var(--accent1);
     color: #ffffff;

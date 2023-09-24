@@ -13,8 +13,10 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/strapi": "^1.9.3",
     "@types/node": "^18.17.0",
+    "mapbox-gl": "^2.15.0",
     "markdown-it": "^13.0.1",
     "nuxt": "^3.7.0",
+    "nuxt-mapbox": "^1.4.4",
     "sass": "^1.64.2",
     "vue-tsc": "^1.8.8"
   }
