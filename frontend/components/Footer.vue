@@ -61,9 +61,8 @@ footer {
           padding: 0.25rem 0;
           display: flex;
           align-items: center;
-          font-weight: 100;
           font-weight: 400;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Avenir Next W05 Medium"; 
           i {
             margin-right: 8px;
           }
@@ -81,7 +80,7 @@ footer {
         text-align: center;
         font-size: 15px;
         font-weight: 400;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Avenir Next W05 Medium";
 
         display: flex;
   justify-content: center;
@@ -91,7 +90,7 @@ footer {
     width: fit-content;
     margin-right: 8px;
     font-weight: 400;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Avenir Next W05 Medium";
     .fa-heart {
       color: #f9063b;
     }
@@ -107,7 +106,7 @@ footer {
     transition: all 0.3s;
     align-items: center;
     font-weight: 400;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Avenir Next W05 Medium";
     img {
       border-radius: 100%;
       width: 1.25rem;

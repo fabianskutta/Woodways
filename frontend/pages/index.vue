@@ -4,7 +4,7 @@
     <Teaser />
     <div class="page-content">
         <About/>
-        <h2 class="main-title">Nächsten Veranstaltungen & Work-Shops</h2>
+        <h2 class="main-title">Unsere nächsten Veranstaltungen & Work-Shops</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>
@@ -14,6 +14,7 @@
 </template>
 
 <script setup lang="ts">
+    const route = useRoute();
     const { find } = useStrapi();
     const {data: events} = await useAsyncData('events', () => find('events/?populate=*&sort=Date&pagination[pageSize]=3'), {
         transform: (data: any) => {
@@ -33,11 +34,6 @@
   script: [
     {
       src: 'https://kit.fontawesome.com/97e635c580.js',
-      type: "text/javascript",
-      async: true,
-    },
-    {
-      src: '/nav.js',
       type: "text/javascript",
       async: true,
     },

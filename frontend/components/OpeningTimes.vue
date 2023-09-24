@@ -45,7 +45,7 @@
     .openingTimes-text {
         font-weight: 400;
         font-size: 1.25rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Avenir Next W05 Medium";
     }
 
     .openingTimes-times {

@@ -8,6 +8,19 @@
     const url = useStrapiMedia();
     const { find } = useStrapi();
     const {data: legal} = await useAsyncData('Legal', () => find('Legal'), {});
+
+    useHead({
+  titleTemplate: () => `Woodways - Datenschutz`,
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  charset: "utf-8",
+  script: [
+    {
+      src: 'https://kit.fontawesome.com/97e635c580.js',
+      type: "text/javascript",
+      async: true,
+    },
+  ],
+});
 </script>
 
 <style lang="scss" scoped>

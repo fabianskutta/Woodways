@@ -14,7 +14,8 @@
  width: 100%;
 
  p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Avenir Next W05 Medium";
+  font-weight: 400;
     font-size: 1.25rem;
   }
 

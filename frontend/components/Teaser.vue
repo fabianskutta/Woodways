@@ -19,7 +19,7 @@
                     <li>Kuchen</li>
                 </ul>
             </div>
-            <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0019_c7d335d873.jpg">
+            <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">
         </a>
         <a class="teaser-item" href="/eventlocation">
             <div class="teaser-item-container">
