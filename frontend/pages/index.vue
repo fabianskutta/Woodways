@@ -36,6 +36,11 @@
       type: "text/javascript",
       async: true,
     },
+    {
+      src: '/nav.js',
+      type: "text/javascript",
+      async: true,
+    },
   ],
 });
 

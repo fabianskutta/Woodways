@@ -1,19 +1,21 @@
 <template>
     <nav id="nav">
-        <ul class="nav-links">
-            <li><a class="menuItem" href="/">Home</a></li>
-            <li><a class="menuItem" href="/conceptstore">Conceptstore</a></li>
-            <li><a class="menuItem" href="/cafe">Café</a></li>
-            <li><a class="menuItem" href="/eventlocation">Eventlocation</a></li>
+        <ul class="nav-links" :class="{ showMenu: isMenuVisible }">
+            
+            
+            <li><nuxt-link to="/" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Home</nuxt-link></li>
+            <li><nuxt-link to="/conceptstore" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Conceptstore</nuxt-link></li>
+            <li><nuxt-link to="/cafe" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Café</nuxt-link></li>
+            <li><nuxt-link to="/eventlocation" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Eventlocation</nuxt-link></li>
         </ul>
         <a href="/">
             <img class="logo" :src="url + general.data.attributes.Logo.data.attributes.url" alt="" />
         </a>
         <ul class="nav-btns">
             <li>
-                <a id="hamburger" class="navbtn">
-                    <i class="fas fa-bars menuIcon"></i>
-                    <i class="fas fa-times closeIcon"></i>
+                <a id="hamburger" class="navbtn" @click="toggleShowMenu">
+                    <i v-if="!isMenuVisible" class="fas fa-bars menuIcon"></i>
+                    <i v-if="isMenuVisible" class="fas fa-times closeIcon"></i>
                 </a>
             </li>
         </ul>
@@ -25,9 +27,43 @@
     const { find } = useStrapi();
     const {data: general} = await useAsyncData('general', () => find('general?populate=*'), {
     });
+
+    const isMenuVisible = ref(false);
+
+    const toggleShowMenu = () => {
+        isMenuVisible.value = !isMenuVisible.value;
+    };
 </script>
 
 <style lang="scss" scoped>
+
+.menuItem::before {
+    content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  height: 4px;
+  background: var(--accent1);
+  left: 5px;
+  right: 5px;
+  height: 8px;
+  bottom: 14px;
+  opacity: 0;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-transform: translate(0,10px);
+  transform: translateY(10px);
+}
+
+.menuItem:hover::before {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menuItem-active::before {
+    opacity: 1;
+    transform: translateY(0);
+}
 nav {
     position: fixed;
     padding: 0.5rem;
@@ -64,7 +100,6 @@ nav {
 
         a {
             padding: 0.75rem 1rem;
-            border-radius: 10px;
             transition: 0.3s;
         }
 
@@ -86,7 +121,6 @@ nav {
         a {
             display: inline-block;
             padding: 0.75rem 1rem;
-            border-radius: 10px;
             width: 45px;
             height: 45px;
             display: flex;
@@ -119,7 +153,6 @@ nav {
   @media screen and (max-width: 1200px) {
 
     nav {
-        padding: 1rem;
 
         #hamburger {
             display: inline-block;
@@ -133,23 +166,17 @@ nav {
             z-index: -1;
             list-style: none;
             padding: 200px 0 50px 0;
-            border-radius: 30px;
+
           }
           
           .showMenu {
-            transform: translateY(10%);
-            backdrop-filter: blur(1.35rem);;
-            -webkit-backdrop-filter: blur(1.35rem);;
-          }
-
-          .closeIcon {
-            display: none;
+            transform: translatey(20%);
+            background-color: var(--background1);
           }
 
           .menuItem {
-            width: 100%;
             margin: 0.25rem;
-            text-align: center;
+
           }
     }
   }

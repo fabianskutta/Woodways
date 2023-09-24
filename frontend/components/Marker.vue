@@ -28,15 +28,10 @@
         align-items: center;
         color: var(--text1);
 
-        img {
-            width:30px;
-            height: 100%;
-        }
-
         .fa-map-marker-alt {
             position: absolute;
             top: 15px;
-            left: 17px;
+            right: 16px;
             width: 20px;
             z-index: 5;
         }
@@ -44,6 +39,7 @@
         .circle {
             position: absolute;
             top: 5px;
+            right: 0px;
             width: 55px;
             z-index: 1;
             -webkit-animation:spin 4s linear infinite;

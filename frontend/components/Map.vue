@@ -20,6 +20,8 @@
           boxZoom: false,
           doubleClickZoom : false,
           dragPan: false,
+          dragRotate: false,
+          touchPitch: false,
         }"
         :style="{
           height: `600px`,
