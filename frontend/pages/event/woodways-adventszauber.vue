@@ -1,5 +1,5 @@
 <template>
-    <PageHeader :Btn="eventslug.PageBtnText" :BtnLink="eventslug.PageBtnLink" :title="eventslug.Titel" :bg="url + eventslug.PageCover.data.attributes.url">{{ new Date(eventslug.Date).toLocaleDateString('de-DE') + " " + new Date(eventslug.Date).toLocaleTimeString('de-DE', {hour: '2-digit', minute:'2-digit'}) + " Uhr"}}</PageHeader>
+    <PageHeader :Btn="eventslug.PageBtnText" :BtnLink="eventslug.PageBtnLink" :title="eventslug.Titel" :bg="url + eventslug.PageCover.data.attributes.url">2.12.2023 14:00 Uhr & 03.12.2023 11:00 Uhr</PageHeader>
     <div class="page-content text eventpage" v-html="$markdown.render(eventslug.PageDescription)">
     </div>
 </template>
@@ -9,7 +9,7 @@
         const { slug } = useRoute().params;
         const { findOne } = useStrapi();
         
-        const {data: eventslug} = await useAsyncData('events', () => findOne('events', {
+        const {data: eventslug} = await useAsyncData('events', () => findOne('events', { 
                 populate: '*',
                 filters: {
                     Slug: {$eq: slug}

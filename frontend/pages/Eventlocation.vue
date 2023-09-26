@@ -1,5 +1,5 @@
 <template>
-    <PageHeader  title="Eventlocation" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">Bei uns finden regelmäßig Veranstaltungen & Work-Shops statt.</PageHeader>
+    <PageHeader  title="Eventlocation" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">Bei uns finden regelmäßig Veranstaltungen & Workshops statt.</PageHeader>
     <div class="page-content">
         <div class="featured-content text">
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
@@ -9,7 +9,7 @@
         <div class="events2">
             <EventSneak v-for="event in veranstaltungs" :event="event" :key="event.Slug"/>
         </div>
-        <h2 class="main-title">Work-Shops</h2>
+        <h2 class="main-title">Workshops</h2>
         <div class="events2">
             <EventSneak v-for="event in works" :event="event" :key="event.Slug"/>
         </div>

@@ -3,7 +3,7 @@
         <div class="openingTimes-container">
             <div class="column1">
                 <h2>Komm doch mal vorbei:</h2>
-                <p class="openingTimes-text">Freitag geschlossen!</p>
+                <p class="openingTimes-text"></p>
             </div>
             <div class="column2">
                 <div class="openingTimes-times">
