@@ -33,10 +33,10 @@
   meta: [
     { name: "description", content: "Der kreative Hofladen in Sendenhorst • Conceptstore, veganes Café, Eventlocation • Nahchhaltig, Fair, Regional" },
     {property: "og:title", content: "Woodways - Der kreative Hofladen"},
-    {property: "og:description", content: "Der kreative Hofladen in Sendenhorst • Conceptstore, veganes Café, Eventlocation • Nahchhaltig, Fair, Regional"},
+    {property: "og:description", content: "Der kreative Hofladen in Sendenhorst • Conceptstore, veganes Café, Eventlocation • Nachhaltig, Fair, Regional"},
     {property: "og:image", content: "https://cms.woodways.ms/uploads/SEO_Banner_e382b0803d.jpg"},
     {name: "twitter:card", content: "summary_large_image"},
-    {name: "theme-color", content: "#ca9c6e"},
+    {name: "theme-color", content: "#869377"},
 
 
 ],
