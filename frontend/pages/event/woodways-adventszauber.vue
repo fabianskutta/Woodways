@@ -26,7 +26,7 @@
             });
         
             useHead({
-  titleTemplate: () => `Woodways - ${slug}`,
+  titleTemplate: () => `Woodways - Adventszauber`,
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   meta: [{ name: "description", content: "Bei uns finden regelmäßig Veranstaltungen & Work-Shops statt." }],
   charset: "utf-8",

@@ -4,8 +4,9 @@
             <div class="teaser-item-container">
                 <h3>Conceptstore</h3>
                 <ul class="teaser-tags">
-                    <li>Regionale Prudukte</li>
-                    <li>Test</li>
+                    <li>Regional</li>
+                    <li>Hofladen</li>
+                    <li>Dekoration</li>
                 </ul>
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b77d292bc9.jpg">
@@ -15,8 +16,9 @@
                 <h3>Cafe</h3>
                 <ul class="teaser-tags">
                     <li>Casa Eis</li>
-                    <li>veganes Café</li>
+                    <li>Café</li>
                     <li>Kuchen</li>
+                    <li>Vegan</li>
                 </ul>
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">
@@ -25,9 +27,9 @@
             <div class="teaser-item-container">
                 <h3>Eventlocation</h3>
                 <ul class="teaser-tags">
-                    <li>Woodyval</li>
+                    <li>Live-Musik</li>
                     <li>Flohmarkt</li>
-                    <li>Weihnachtsmarkt</li>
+                    <li>Buchlesung</li>
                 </ul>
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">

@@ -30,7 +30,16 @@
   titleTemplate: () => `Woodways - Der kreative Hofladen`,
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
-  meta: [{ name: "description", content: "My amazing site." }],
+  meta: [
+    { name: "description", content: "Der kreative Hofladen in Sendenhorst • Conceptstore, veganes Café, Eventlocation • Nahchhaltig, Fair, Regional" },
+    {property: "og:title", content: "Woodways - Der kreative Hofladen"},
+    {property: "og:description", content: "Der kreative Hofladen in Sendenhorst • Conceptstore, veganes Café, Eventlocation • Nahchhaltig, Fair, Regional"},
+    {property: "og:image", content: "https://cms.woodways.ms/uploads/SEO_Banner_e382b0803d.jpg"},
+    {name: "twitter:card", content: "summary_large_image"},
+    {name: "theme-color", content: "#ca9c6e"},
+
+
+],
   script: [
     {
       src: 'https://kit.fontawesome.com/97e635c580.js',
