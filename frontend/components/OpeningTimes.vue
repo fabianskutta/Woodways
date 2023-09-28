@@ -1,9 +1,10 @@
 <template>
-    <section id="openingTimes" class="openingTimes">
+    <section id="openingTimes" class="openingTimes" v-motion-slide-visible-bottom >
         <div class="openingTimes-container">
             <div class="column1">
                 <h2>Komm doch mal vorbei:</h2>
-                <p class="openingTimes-text"></p>
+                <p class="openingTimes-text">Bitte überprüfe immer unsere aktuellen Öffnungszeiten bei Google:</p>
+                <Btn1 target="_blank" href="https://maps.app.goo.gl/pWN6rM5LgncLkmNA7">aktuellen Öffnungszeiten</Btn1>
             </div>
             <div class="column2">
                 <div class="openingTimes-times">
@@ -32,7 +33,7 @@
     justify-content: space-between;
     padding: 4rem;
     position: absolute;
-    background-color: #00000038;
+    background-color: #0000003d;
     height: inherit;
     display: flex;
     width: 100%;
@@ -40,6 +41,7 @@
 
     h2 {
         font-size: 2rem;
+        margin-bottom: 0;
     }
 
     .openingTimes-text {
@@ -65,6 +67,9 @@
 .column1{
     flex-basis: calc(50% - 6rem);
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .column2{
     flex-basis: calc(50% - 6rem);
@@ -80,7 +85,7 @@
 @media screen and (max-width: 1000px) {
 
     .openingTimes {
-    height: 500px;
+    height: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -92,6 +97,7 @@
     .column1{
     flex-basis: calc(100%);
     text-align: left;
+    align-items: start;
 }
     .column2{
         flex-basis: calc(100%);

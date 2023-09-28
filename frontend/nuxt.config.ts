@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  modules: ['@nuxtjs/strapi', 'nuxt-mapbox'],
+  modules: ['@nuxtjs/strapi', 'nuxt-mapbox', '@vueuse/motion/nuxt'],
   strapi: {
     url: 'https://cms.woodways.ms',
   },

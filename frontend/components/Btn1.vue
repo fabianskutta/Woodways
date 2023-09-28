@@ -34,7 +34,6 @@ export default {
 <style lang="scss" scoped>
 
 .btn1 {
-  padding: 0.5rem 1rem;
   color: var(--text1);
   background-color: var(--accent1);
   border-radius: 50px;
@@ -46,6 +45,10 @@ export default {
   cursor: pointer;
   width: fit-content;
   transition: .3s;
+
+  a,nuxt-link {
+    padding: 0.5rem 1rem;
+  }
 }
 
 .btn1:hover{

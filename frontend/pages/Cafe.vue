@@ -2,9 +2,9 @@
     <PageHeader  title="Café" bg="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">Lorem ipsum dolor sit amet, consectetur adipiscing elit</PageHeader>
 
 <div class="page-content">
-  <div class="featured-content text">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Proin libero nunc consequat interdum varius sit amet mattis vulputate.</p>
+  <div v-motion-slide-visible-bottom class="featured-content text">
+            <h2>Genussmomente für Gaumen und Seele</h2>
+            <p>Gönn dir eine Auszeit in unserem gemütlichen Café, wo du vegane Leckereien, himmlische Kuchen und die besten Waffeln genießen kannst. Egal ob drinnen oder im wunderschönen Garten, hier ist Platz für Entspannung und kulinarische Freuden.</p>
 </div>
 </div>
 <Gallery>

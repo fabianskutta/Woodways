@@ -29,7 +29,6 @@ export default {
 <style lang="scss" scoped>
 
 .btn2 {
-  padding: 0.5rem 1rem;
   color: var(--text1);
   border-color: var(--accent1);
   border-width: 2px;
@@ -42,6 +41,10 @@ export default {
   margin: 0 2.5px;
   cursor: pointer;
   transition: .3s;
+
+  a {
+    padding: 0.5rem 1rem;
+  }
 }
 
 .btn2:hover{

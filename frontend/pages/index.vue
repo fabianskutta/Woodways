@@ -4,7 +4,7 @@
     <Teaser />
     <div class="page-content">
         <About/>
-        <h2 class="main-title">Unsere nächsten Veranstaltungen & Workshops</h2>
+        <h2 v-motion-slide-visible-bottom class="main-title">Unsere nächsten Veranstaltungen & Workshops</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>
