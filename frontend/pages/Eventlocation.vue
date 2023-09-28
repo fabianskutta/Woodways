@@ -1,9 +1,9 @@
 <template>
-    <PageHeader  title="Eventlocation" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">Bei uns finden regelmäßig Veranstaltungen & Workshops statt.</PageHeader>
+    <PageHeader  title="Eventlocation" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">Erlebe unvergessliche Augenblicke in unserer einzigartigen Eventlocation</PageHeader>
     <div class="page-content">
-        <div v-motion-slide-visible-bottom class="featured-content text">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Proin libero nunc consequat interdum varius sit amet mattis vulputate.</p>
+        <div class="featured-content text">
+            <h2>Eine Bühne für besondere Woodways Momente</h2>
+            <p>Unsere Eventlocation bietet den perfekten Rahmen für einzigartige Woodways Events und Kurse. Hier erlebst du gemeinschaftliche Momente inmitten der natürlichen Schönheit. Bitte beachte, dass unsere Eventlocation nicht zur Miete steht, sondern ausschließlich für Woodways Veranstaltungen genutzt wird.</p>
         </div>
         <h2 class="main-title">Veranstaltungen</h2>
         <div class="events2">

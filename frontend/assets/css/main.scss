@@ -2,7 +2,7 @@ html {
     --accent1: #ca9c6e;
     --text1: #fff;
     --text2: #000000;
-    --background1: #869377;
+    --background1: #889277;
 }
 
 html {
@@ -34,9 +34,12 @@ a {
 .page-content {
   width: 1000px;
   margin: 0 auto;
-  padding: 20px 0 51px 0;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+.eventpage {
+  padding: 20px 0 51px 0;
 }
 
 .main-title {
@@ -68,8 +71,8 @@ a {
 
 .text {
   p {
-    font-family: "Avenir Next W05 Medium";  
-  }
+    font-family: "Avenir Next W05 Medium"; 
+    font-size: 18px;
 
   a {
     font-weight: 500;
@@ -78,6 +81,7 @@ a {
   img {
     max-width: 100%;
   }
+}
 }
 
 .center {

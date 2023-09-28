@@ -1,9 +1,9 @@
 <template>
-    <PageHeader  title="Café" bg="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">Lorem ipsum dolor sit amet, consectetur adipiscing elit</PageHeader>
+    <PageHeader  title="Café" bg="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">Kaffee und Kuchen, Genuss pur</PageHeader>
 
 <div class="page-content">
-  <div v-motion-slide-visible-bottom class="featured-content text">
-            <h2>Genussmomente für Gaumen und Seele</h2>
+  <div class="featured-content text">
+            <h2>Genuss und Gemütlichkeit vereint</h2>
             <p>Gönn dir eine Auszeit in unserem gemütlichen Café, wo du vegane Leckereien, himmlische Kuchen und die besten Waffeln genießen kannst. Egal ob drinnen oder im wunderschönen Garten, hier ist Platz für Entspannung und kulinarische Freuden.</p>
 </div>
 </div>

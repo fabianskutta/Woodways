@@ -1,9 +1,9 @@
 <template>
     <section class="about">
-        <div v-motion-slide-visible-left class="column2">
+        <div class="column2">
             <h2>Herzlich Willkommen im Woodways</h2>
             <p>Entdecke eine Welt voller handverlesener Schätze, von skandinavischen Marken bis zu regionalen Besonderheiten. Hier findest du nicht nur schöne Dinge, sondern auch eine Oase der Entschleunigung und Gemütlichkeit.</p></div>
-            <div v-motion-pop-visible class="column1"><img src="https://cms.woodways.ms/uploads/melanie_b32537e5fd.jpg" alt=""></div>
+            <div class="column1"><img src="https://cms.woodways.ms/uploads/melanie_b32537e5fd.jpg" alt=""></div>
     </section>
 </template>
 

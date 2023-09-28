@@ -1,10 +1,12 @@
 <template>
     <h1>Home</h1>
     <Header />
-    <Teaser />
     <div class="page-content">
         <About/>
-        <h2 v-motion-slide-visible-bottom class="main-title">Unsere nächsten Veranstaltungen & Workshops</h2>
+    </div>
+    <Teaser />
+    <div class="page-content">
+        <h2 class="main-title">Unsere nächsten Veranstaltungen & Workshops</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>

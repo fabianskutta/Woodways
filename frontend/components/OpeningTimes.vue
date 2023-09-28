@@ -1,10 +1,10 @@
 <template>
-    <section id="openingTimes" class="openingTimes" v-motion-slide-visible-bottom >
+    <section id="openingTimes" class="openingTimes" >
         <div class="openingTimes-container">
             <div class="column1">
                 <h2>Komm doch mal vorbei:</h2>
-                <p class="openingTimes-text">Bitte überprüfe immer unsere aktuellen Öffnungszeiten bei Google:</p>
-                <Btn1 target="_blank" href="https://maps.app.goo.gl/pWN6rM5LgncLkmNA7">aktuellen Öffnungszeiten</Btn1>
+                <p class="openingTimes-text">Bitte prüfe immer unsere aktuellen Öffnungszeiten bei Google:</p>
+                <Btn1 target="_blank" href="https://maps.app.goo.gl/pWN6rM5LgncLkmNA7">Aktuellen Öffnungszeiten</Btn1>
             </div>
             <div class="column2">
                 <div class="openingTimes-times">
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 .openingTimes-container {
     display: flex;

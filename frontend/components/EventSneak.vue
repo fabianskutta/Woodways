@@ -1,5 +1,5 @@
 <template>
-    <a v-motion v-motion-slide-visible-right :href="`/event/${event.Slug}`" class="event-sneak">
+    <a  :href="`/event/${event.Slug}`" class="event-sneak">
         <div class="event-container">
             <h3>{{ event.Titel }}</h3>
             <p>{{ new Date(event.Date).toLocaleDateString('de-DE') }}</p>
@@ -53,6 +53,9 @@ defineProps<{event: Event;}>();
     }
 }
 
+.event-sneak:hover {
+    transform: scale(1.04);
+}
 .event-bg {
     width: 100%;
     height: 100%;

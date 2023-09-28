@@ -1,7 +1,7 @@
 <template>
-<PageHeader  title="Conceptstore" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b77d292bc9.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit</PageHeader>
+<PageHeader  title="Conceptstore" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b77d292bc9.jpg">Entdecke einzigartige Produkte im Woodways Conceptstore</PageHeader>
 <div class="page-content">
-  <div v-motion-slide-visible-bottom class="featured-content text">
+  <div class="featured-content text">
             <h2>Nachhaltige Schätze für Herz und Zuhause</h2>
             <p>Tauche ein in unsere liebevoll kuratierte Auswahl an fair produzierten, umweltfreundlichen Produkten. Jedes Stück erzählt seine eigene Geschichte und wartet darauf, von dir entdeckt zu werden.</p>
   </div>

@@ -1,6 +1,6 @@
 <template>
     <section class="teaser">
-        <a v-motion-slide-visible-bottom class="teaser-item" href="/conceptstore">
+        <a class="teaser-item" href="/conceptstore">
             <div class="teaser-item-container">
                 <h3>Conceptstore</h3>
                 <ul class="teaser-tags">
@@ -11,7 +11,7 @@
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b77d292bc9.jpg">
         </a>
-        <a v-motion-slide-visible-bottom class="teaser-item" href="/cafe">
+        <a class="teaser-item" href="/cafe">
             <div class="teaser-item-container">
                 <h3>Cafe</h3>
                 <ul class="teaser-tags">
@@ -23,7 +23,7 @@
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">
         </a>
-        <a v-motion-slide-visible-bottom class="teaser-item" href="/eventlocation">
+        <a class="teaser-item" href="/eventlocation">
             <div class="teaser-item-container">
                 <h3>Eventlocation</h3>
                 <ul class="teaser-tags">
@@ -42,6 +42,7 @@
 .teaser {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 4rem;
 }
 
 .teaser-item {

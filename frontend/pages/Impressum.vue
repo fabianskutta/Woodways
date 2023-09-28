@@ -1,5 +1,5 @@
 <template>
-    <PageHeader  title="Impressum" bg="https://cms.woodways.ms/uploads/375067098_994424788597686_2871287286949219759_n_92e0a3f6da.jpg"></PageHeader>
+    <PageHeader  title="Impressum" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg"></PageHeader>
     <div class="page-content text" v-html="$markdown.render(legal.data.attributes.Impressum)">
     </div>
 </template>
