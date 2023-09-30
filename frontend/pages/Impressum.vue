@@ -1,6 +1,6 @@
 <template>
     <PageHeader  title="Impressum" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg"></PageHeader>
-    <div class="page-content text" v-html="$markdown.render(legal.data.attributes.Impressum)">
+    <div class="page-content eventpage text" v-html="$markdown.render(legal.data.attributes.Impressum)">
     </div>
 </template>
 

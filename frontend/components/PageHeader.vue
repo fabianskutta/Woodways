@@ -2,9 +2,9 @@
     <header>
         <div class="container">
             <div class="text-container">
-                <h1>{{ title }}</h1>
-                <p><slot></slot></p>
-                <div class="event-btn-all"><Btn1 target="_blank" v-if="Btn" :href="BtnLink">{{ Btn }}</Btn1></div>
+                <h1 v-motion-slide-visible-bottom>{{ title }}</h1>
+                <p v-motion-slide-visible-bottom><slot></slot></p>
+                <div v-motion-slide-visible-bottom class="event-btn-all"><Btn1 target="_blank" v-if="Btn" :href="BtnLink">{{ Btn }}</Btn1></div>
             </div>
         </div>
             <img class="bg" :src="bg">

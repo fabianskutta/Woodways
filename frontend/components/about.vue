@@ -1,8 +1,9 @@
 <template>
     <section class="about">
         <div class="column2">
-            <h2>Herzlich Willkommen im Woodways</h2>
-            <p>Entdecke eine Welt voller handverlesener Schätze, von skandinavischen Marken bis zu regionalen Besonderheiten. Hier findest du nicht nur schöne Dinge, sondern auch eine Oase der Entschleunigung und Gemütlichkeit.</p></div>
+            <h2>Mein Herzensprojekt - das Woodways</h2>
+            <p>Bei uns erwartet dich schönes zum Behalten und Verschenken, Ideen für Groß und Klein, skandinavische Marken, feines für den Gaumen sowie Besonderes für Haus und Garten. Dabei immer fair zu Mensch und Tier hergestellt, so wenig wie möglich verpackt, viel bio und/oder regionales und kleine besondere Labels. 
+</p></div>
             <div class="column1"><img src="https://cms.woodways.ms/uploads/melanie_b32537e5fd.jpg" alt=""></div>
     </section>
 </template>

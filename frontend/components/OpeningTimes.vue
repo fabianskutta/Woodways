@@ -65,14 +65,14 @@
     }
 }
 
-.column1{
+.column1 {
     flex-basis: calc(50% - 6rem);
     text-align: right;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
 }
-.column2{
+.column2 {
     flex-basis: calc(50% - 6rem);
     display: flex;
 }

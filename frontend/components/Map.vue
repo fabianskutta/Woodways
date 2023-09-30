@@ -10,8 +10,7 @@
             </div>
         </div>
         </div>
-      <MapboxMap
-        map-id="map"
+      <MapboxMap map-id="map"
         :options="{
           style, // style URL
           center: [7.82502208, 51.86914234], // starting position [lng, lat]

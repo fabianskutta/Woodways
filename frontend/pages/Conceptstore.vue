@@ -3,19 +3,19 @@
 <div class="page-content">
   <div class="featured-content text">
             <h2>Nachhaltige Schätze für Herz und Zuhause</h2>
-            <p>Tauche ein in unsere liebevoll kuratierte Auswahl an fair produzierten, umweltfreundlichen Produkten. Jedes Stück erzählt seine eigene Geschichte und wartet darauf, von dir entdeckt zu werden.</p>
+            <p>Erlebe die faszinierende Vielfalt unserer sorgfältig ausgewählten, fair produzierten und umweltfreundlichen Produkten. Jedes Einzelstück birgt seine eigene einzigartige Geschichte und wartet nur darauf, von dir entdeckt zu werden.</p>
   </div>
 </div>
 <Gallery>
-  <img src="https://cms.woodways.ms/uploads/Whats_App_Bild_bbc017657b.jpg"/> 
-  <img src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b47f93c8c8.jpg"/> 
-  <img src="https://cms.woodways.ms/uploads/2022_05_21_4ae1bada3e.jpg"/> 
-  <img src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0021_42e7ce6602.jpg"/> 
-  <img src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0010_7dc196d6e2.jpg"/> 
-  <img src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0015_c611136774.jpg"/> 
-  <img src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0006_8b1699bdc4.jpg"/>
-  <img src="https://cms.woodways.ms/uploads/2022_05_213_3ca4f7182b.jpg"/> 
-  <img src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0007_235f63a25b.jpg"/>
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/Whats_App_Bild_bbc017657b.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b47f93c8c8.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/2022_05_21_4ae1bada3e.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0021_42e7ce6602.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0010_7dc196d6e2.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0015_c611136774.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0006_8b1699bdc4.jpg"/>
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/2022_05_213_3ca4f7182b.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0007_235f63a25b.jpg"/>
 </Gallery>
 
 </template>

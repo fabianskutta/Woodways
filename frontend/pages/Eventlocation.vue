@@ -3,7 +3,7 @@
     <div class="page-content">
         <div class="featured-content text">
             <h2>Eine Bühne für besondere Woodways Momente</h2>
-            <p>Unsere Eventlocation bietet den perfekten Rahmen für einzigartige Woodways Events und Kurse. Hier erlebst du gemeinschaftliche Momente inmitten der natürlichen Schönheit. Bitte beachte, dass unsere Eventlocation nicht zur Miete steht, sondern ausschließlich für Woodways Veranstaltungen genutzt wird.</p>
+            <p>Immer mal wieder öffnen wir unseren Hofgarten oder das Lädchen für besondere Events, ob Musik, Märkte, Lesungen,  Theater, oder unseren Adventszauber. Wir haben immer wieder viele Ideen und laden euch von Herzen hierzu ein. Seid gespannt. Bitte beachte, dass unsere Eventlocation nicht zur Miete steht, sondern ausschließlich für Woodways Veranstaltungen genutzt wird.</p>
         </div>
         <h2 class="main-title">Veranstaltungen</h2>
         <div class="events2">
