@@ -32,7 +32,7 @@
                     <li>Buchlesung</li>
                 </ul>
             </div>
-            <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">
+            <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0023_b0c3ccb3e2.jpg">
         </a>
     </section>
 </template>

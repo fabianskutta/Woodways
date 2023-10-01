@@ -88,5 +88,9 @@ a {
   text-align: center
 }
 
+.invert {
+  filter: grayscale(1) invert(1);
+}
+
 @import url('https://fonts.cdnfonts.com/css/prater-sans');
 @import url(https://db.onlinewebfonts.com/c/8b2f5f03b0c907b9b7056ae52ed03a09?family=Avenir+Next+W05+Medium); 

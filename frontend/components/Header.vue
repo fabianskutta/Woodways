@@ -1,8 +1,8 @@
 <template>
     <header>
             <div class="container">
-                <img v-motion-slide-visible-once-bottom class="logo" :src="url + frontpage.data.attributes.Logo.data.attributes.url" alt="" />
-                <div v-motion-slide-visible-once-bottom class="header-btns"><Btn1 :href="`${frontpage.data.attributes.Btn1Link}`">{{ frontpage.data.attributes.Btn1Text }}</Btn1><Btn2 :href="`${frontpage.data.attributes.Btn2Link}`">{{ frontpage.data.attributes.Btn2Text }}</Btn2></div>
+                <img v-motion-slide-visible-bottom class="logo" :src="url + frontpage.data.attributes.Logo.data.attributes.url" alt="" />
+                <div v-motion-slide-visible-bottom class="header-btns"><Btn1 :href="`${frontpage.data.attributes.Btn1Link}`">{{ frontpage.data.attributes.Btn1Text }}</Btn1><Btn2 :href="`${frontpage.data.attributes.Btn2Link}`">{{ frontpage.data.attributes.Btn2Text }}</Btn2></div>
             </div>
             <img class="bg" :src="url + frontpage.data.attributes.Background.data.attributes.url">
     </header>

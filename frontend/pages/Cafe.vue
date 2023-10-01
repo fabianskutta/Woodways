@@ -7,6 +7,13 @@
             <p>Gönn dir eine Auszeit in unserem gemütlichen Café, wo du vegane Leckereien, tolle Kuchen, die besten Waffeln oder auch mal kleine Snacks genießen kannst. Über die Herbst- und Wintermonate könnt ihr bei usseligem Wetter drinnen, in einer der gemütlichen Sitzecken inmitten des Lädchens platznehmen. Unser schöner Ofen, sorgt dabei für hyggelige Wärme. 
 </p>
 </div>
+<LogoGrid>
+  <img class="invert" src="https://cms.woodways.ms/uploads/Liba_Logo_4432597416.png"/> 
+  <img class="invert" src="https://cms.woodways.ms/uploads/fam2_1_png_e6a316f19f.webp"/> 
+  <img src="https://cms.woodways.ms/uploads/casa_logo_schwarz_4e60721cc6.png"/>
+  <img class="invert" src="https://cms.woodways.ms/uploads/herr_Hase_123fcee71c.png"/>
+  <img src="https://cms.woodways.ms/uploads/Hofgenuss_fe03d0f1d2.png"/> 
+  </LogoGrid>
 </div>
 <Gallery>
   <img v-motion-slide-visible-bottom  src="https://cms.woodways.ms/uploads/331255796_3210046615952005_2603511354129028016_n_84ff5fe392.jpeg"/> 

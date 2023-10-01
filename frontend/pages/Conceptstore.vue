@@ -5,17 +5,24 @@
             <h2>Nachhaltige Schätze für Herz und Zuhause</h2>
             <p>Erlebe die faszinierende Vielfalt unserer sorgfältig ausgewählten, fair produzierten und umweltfreundlichen Produkten. Jedes Einzelstück birgt seine eigene einzigartige Geschichte und wartet nur darauf, von dir entdeckt zu werden.</p>
   </div>
+  <LogoGrid>
+    <img src="https://cms.woodways.ms/uploads/My_Esel_1_9ccd87d750.png"/> 
+    <img src="https://cms.woodways.ms/uploads/knalle_8368a94f0c.png"/>
+    <img class="invert" src="https://cms.woodways.ms/uploads/herr_Hase_123fcee71c.png"/> 
+    <img src="https://cms.woodways.ms/uploads/ath_46ca950117.png"/> 
+    <img src="https://cms.woodways.ms/uploads/Hofgenuss_fe03d0f1d2.png"/> 
+  </LogoGrid>
 </div>
 <Gallery>
   <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/Whats_App_Bild_bbc017657b.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/337161201_946589489716879_780060962265366177_n_7f79939f14.jpeg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/2022_05_213_3ca4f7182b.jpg"/>
   <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b47f93c8c8.jpg"/> 
   <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/2022_05_21_4ae1bada3e.jpg"/> 
-  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0021_42e7ce6602.jpg"/> 
+  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0021_42e7ce6602.jpg"/>  
   <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0010_7dc196d6e2.jpg"/> 
   <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0015_c611136774.jpg"/> 
   <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0006_8b1699bdc4.jpg"/>
-  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/2022_05_213_3ca4f7182b.jpg"/> 
-  <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0007_235f63a25b.jpg"/>
 </Gallery>
 
 </template>
