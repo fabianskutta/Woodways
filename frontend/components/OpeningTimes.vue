@@ -4,7 +4,7 @@
             <div class="column1">
                 <h2>Komm doch mal vorbei:</h2>
                 <p class="openingTimes-text">Bitte prüfe immer unsere aktuellen Öffnungszeiten bei Google:</p>
-                <Btn1 target="_blank" href="https://maps.app.goo.gl/pWN6rM5LgncLkmNA7">Aktuellen Öffnungszeiten</Btn1>
+                <Btn1 target="_blank" href="https://maps.app.goo.gl/pWN6rM5LgncLkmNA7">zu Google</Btn1>
             </div>
             <div class="column2">
                 <div class="openingTimes-times">

@@ -6,11 +6,13 @@
     </div>
     <Teaser />
     <div class="page-content">
-        <h2 class="main-title">Unsere nächsten Veranstaltungen & Workshops</h2>
+        <h2 class="main-title">Unseren nächsten Veranstaltungen & Workshops</h2>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>
         <div class="event-btn-all"><Btn1 href="/eventlocation">Alle Events ansehen</Btn1></div>
+        <h2 class="main-title">Unser Team</h2>
+        <img class="team-foto" src="https://cms.woodways.ms/uploads/Whats_App_Bild_2023_10_03_um_17_05_49_542343df_1b5d8c6094.jpg" alt="">
     </div>
     <OpeningTimes />
 </template>
@@ -63,6 +65,11 @@
 .event-btn-all {
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.team-foto {
+    width: 100%;
 }
 
 
