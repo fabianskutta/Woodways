@@ -39,6 +39,11 @@ useHead({
       type: "text/javascript",
       async: true,
     },
+    {
+      src: 'https://cdn-cookieyes.com/client_data/bdcd74ae1c4f663e19b2b9b7/script.js',
+      type: "text/javascript",
+      async: true,
+    },
   ],
 });
 </script>

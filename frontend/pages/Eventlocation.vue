@@ -11,6 +11,9 @@
         </div>
         <h2 class="main-title">Workshops</h2>
         <div class="events2">
+            <div v-if="!works[0]" class="text text-center">
+                <p>Leider sind alle Workshops ausgebucht. Ihr seid kreativ, habt ein besonderes handwerkliches Talent welches ihr gerne in der kleinen Gruppe weitergeben möchtet?  Vielleicht mögt ihr unsere Räumlichkeiten ja auch für einen Workshop nutzen. Dann ruft mich gerne an und wir quatschen mal drüber.</p>
+            </div>
             <EventSneak v-for="event in works" :event="event" :key="event.Slug"/>
         </div>
     </div>
@@ -51,12 +54,22 @@ const route = useRoute();
       type: "text/javascript",
       async: true,
     },
+    {
+      src: 'https://cdn-cookieyes.com/client_data/bdcd74ae1c4f663e19b2b9b7/script.js',
+      type: "text/javascript",
+      async: true,
+    },
   ],
 });
 
 </script>
 
 <style lang="scss" scoped>
+
+.text-center {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 .featured-content {
     margin: 100px 0;
     h2 {
