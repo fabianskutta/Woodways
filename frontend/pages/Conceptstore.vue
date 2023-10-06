@@ -31,7 +31,13 @@
 useHead({
   titleTemplate: () => `Woodways - Conceptstore`,
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  meta: [{ name: "description", content: "Lorem ipsum dolor sit amet" }],
+  meta: [
+    { name: "description", content: "Erlebe die faszinierende Vielfalt unserer sorgfältig ausgewählten, fair produzierten und umweltfreundlichen Produkten." },
+    {property: "og:image", content: "https://cms.woodways.ms/uploads/SEO_Banner_e382b0803d.jpg"},
+    {name: "twitter:card", content: "summary_large_image"},
+    {name: "theme-color", content: "#869377"},
+
+],
   charset: "utf-8",
   script: [
     {

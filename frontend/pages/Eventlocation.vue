@@ -46,7 +46,13 @@ const route = useRoute();
     useHead({
   titleTemplate: () => `Woodways - Eventlocation`,
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  meta: [{ name: "description", content: "Bei uns finden regelmäßig Veranstaltungen & Work-Shops statt." }],
+  meta: [
+    { name: "description", content: "Immer mal wieder öffnen wir unseren Hofgarten oder das Lädchen für besondere Events, ob Musik, Märkte, Lesungen,  Theater, oder unseren Adventszauber." },
+    {property: "og:image", content: "https://cms.woodways.ms/uploads/SEO_Banner_e382b0803d.jpg"},
+    {name: "twitter:card", content: "summary_large_image"},
+    {name: "theme-color", content: "#869377"},
+
+],
   charset: "utf-8",
   script: [
     {
