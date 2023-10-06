@@ -10,7 +10,7 @@
                 <div class="openingTimes-times">
                     <p><span>DI + MI: </span>10:00 - 13:00 Uhr <br>15:00 - 17:30 Uhr</p>
                     <p><span>DO: </span>10:00 - 13:00 Uhr</p>
-                    <p><span>FR + SA: </span>10:00 - 13:00 Uhr <br>15:00 - 17:30 Uhr</p>
+                    <p><span>FR + SA: </span>10:00 - 17:00 Uhr</p>
                 </div>
             </div>
         </div>
