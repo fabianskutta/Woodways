@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  modules: ['@nuxtjs/strapi', 'nuxt-mapbox', '@vueuse/motion/nuxt'],
+  modules: ['@nuxtjs/strapi', 'nuxt-mapbox', '@vueuse/motion/nuxt', 'nuxt-simple-sitemap', 'nuxt-simple-robots'],
   strapi: {
     url: 'https://cms.woodways.ms',
   },
@@ -14,6 +14,9 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.scss',
   ],
+  site: {
+    url: 'https://woodways.ms',
+  },
   plugins: [
     './plugins/markdown.ts',
   ]

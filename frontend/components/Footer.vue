@@ -21,9 +21,6 @@
             </ul>
         </div>
         <div class="copyright">© Woodways {{ new Date().getFullYear() }}&nbsp;
-        <a class="fabian-profile" href="https://fabian.lol" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/71977333?s=400&u=fac23e7a9ca6f755a2cb80eac72dace3ea85de1a&v=4" alt=""> Fabian
-        </a>  
         </div>
     </footer>
 </template>
