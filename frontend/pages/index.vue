@@ -1,5 +1,4 @@
 <template>
-    <h1>Home</h1>
     <Header />
     <div class="page-content">
         <About/>
