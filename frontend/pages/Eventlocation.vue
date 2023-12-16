@@ -7,12 +7,15 @@
         </div>
         <h2 class="main-title">Veranstaltungen</h2>
         <div class="events2">
+            <div v-if="!veranstaltungs[0]" class="text text-center">
+                <p>Leider stehen derzeit keine bevorstehenden Veranstaltungen an.</p>
+            </div>
             <EventSneak v-for="event in veranstaltungs" :event="event" :key="event.Slug"/>
         </div>
         <h2 class="main-title">Workshops</h2>
         <div class="events2">
             <div v-if="!works[0]" class="text text-center">
-                <p>Leider sind alle Workshops ausgebucht. Ihr seid kreativ, habt ein besonderes handwerkliches Talent welches ihr gerne in der kleinen Gruppe weitergeben möchtet?  Vielleicht mögt ihr unsere Räumlichkeiten ja auch für einen Workshop nutzen. Dann ruft mich gerne an und wir quatschen mal drüber.</p>
+                <p>Leider stehen derzeit keine bevorstehenden Workshops an. Ihr seid kreativ, habt ein besonderes handwerkliches Talent welches ihr gerne in der kleinen Gruppe weitergeben möchtet?  Vielleicht mögt ihr unsere Räumlichkeiten ja auch für einen Workshop nutzen. Dann ruft mich gerne an und wir quatschen mal drüber.</p>
             </div>
             <EventSneak v-for="event in works" :event="event" :key="event.Slug"/>
         </div>

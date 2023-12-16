@@ -31,7 +31,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #0000004f;
+    background-color: #00000023;
 
     img {
         height: 350px;
@@ -47,7 +47,6 @@ header {
 
     .header-btns {
         display: flex;
-        margin-bottom: 100px;
     }
 }
 

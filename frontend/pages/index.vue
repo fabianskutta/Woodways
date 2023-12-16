@@ -1,11 +1,14 @@
 <template>
     <Header />
-    <div class="page-content">
+    <div class="page-content" id="content">
         <About/>
     </div>
-    <Teaser />
+    <Teaser/>
     <div class="page-content">
         <h2 class="main-title">Unseren nächsten Veranstaltungen & Workshops</h2>
+        <div v-if="!events[0]" class="text text-center">
+                <p>Leider stehen derzeit keine bevorstehenden Veranstaltungen oder Workshops an.</p>
+            </div>
         <div class="events">
             <EventSneak v-for="event in events" :event="event" :key="event.Slug"/>
         </div>
@@ -64,6 +67,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .event-btn-all {
