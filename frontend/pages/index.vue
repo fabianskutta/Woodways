@@ -5,7 +5,7 @@
     </div>
     <Teaser/>
     <div class="page-content">
-        <h2 class="main-title">Unseren nächsten Veranstaltungen</h2>
+        <h2 class="main-title">Unsere nächsten Veranstaltungen</h2>
         <div v-if="!events[0]" class="text text-center">
                 <p>Leider stehen derzeit keine bevorstehenden Veranstaltungen oder Workshops an.</p>
             </div>

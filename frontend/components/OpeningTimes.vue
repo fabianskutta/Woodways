@@ -8,7 +8,9 @@
             </div>
             <div class="column2">
                 <div class="openingTimes-times">
-                    <p><span>MI: </span> 15:00 - 17:30 Uhr</p>
+                    <p><span>DI: </span> 15:00-18:00 Uhr</p>
+                    <p><span>MI </span> 10:30-13:00 Uhr 15:00-19 Uhr</p>
+                    <p><span>MI </span> 10:30-13:00 Uhr</p>
                     <p><span>FR + SA: </span> 10:00 - 17:00 Uhr</p>
                 </div>
             </div>

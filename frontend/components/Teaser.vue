@@ -23,16 +23,16 @@
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">
         </a>
-        <a class="teaser-item" href="/eventlocation">
+        <a class="teaser-item" href="/veranstaltungen">
             <div class="teaser-item-container">
-                <h3>Eventlocation</h3>
+                <h3>Veranstaltungen</h3>
                 <ul class="teaser-tags">
                     <li>Live-Musik</li>
                     <li>Flohmarkt</li>
                     <li>Workshops</li>
                 </ul>
             </div>
-            <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0023_b0c3ccb3e2.jpg">
+            <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/Whats_App_Bild_2024_08_01_um_13_17_12_7d53fc5a_1c77d29292.jpg">
         </a>
     </section>
 </template>
