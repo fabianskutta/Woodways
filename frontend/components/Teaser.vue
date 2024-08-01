@@ -29,7 +29,7 @@
                 <ul class="teaser-tags">
                     <li>Live-Musik</li>
                     <li>Flohmarkt</li>
-                    <li>Buchlesung</li>
+                    <li>Workshops</li>
                 </ul>
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0023_b0c3ccb3e2.jpg">

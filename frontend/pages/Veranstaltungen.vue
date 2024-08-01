@@ -1,5 +1,5 @@
 <template>
-    <PageHeader  title="Eventlocation" bg="https://cms.woodways.ms/uploads/IMG_20230908_WA_0017_d303205a98.jpg">Erlebe unvergessliche Augenblicke in unserer einzigartigen Eventlocation</PageHeader>
+    <PageHeader  title="Veranstaltungen" bg="https://cms.woodways.ms/uploads/Whats_App_Bild_2024_08_01_um_13_17_12_7d53fc5a_1c77d29292.jpg">Erlebe unvergessliche Augenblicke in unserer einzigartigen Eventlocation</PageHeader>
     <div class="page-content">
         <div class="featured-content text">
             <h2>Eine Bühne für besondere Woodways Momente</h2>
@@ -20,6 +20,14 @@
             <EventSneak v-for="event in works" :event="event" :key="event.Slug"/>
         </div>
     </div>
+
+    <Gallery>
+  <img v-motion-slide-visible-bottom  src="https://cms.woodways.ms/uploads/Whats_App_Bild_2024_08_01_um_13_17_45_52d40e84_2113ef1494.jpg"/> 
+  <img v-motion-slide-visible-bottom  src="https://cms.woodways.ms/uploads/Whats_App_Bild_2024_08_01_um_13_17_45_07f512ca_02f35e27a7.jpg"/> 
+  <img v-motion-slide-visible-bottom  src="https://cms.woodways.ms/uploads/Whats_App_Bild_2024_08_01_um_13_17_13_1992a183_deec9c7e34.jpg"/> 
+  <img v-motion-slide-visible-bottom  src="https://cms.woodways.ms/uploads/Whats_App_Bild_2024_08_01_um_13_17_12_7d53fc5a_1c77d29292.jpg"/> 
+  <img v-motion-slide-visible-bottom  src="https://cms.woodways.ms/uploads/Whats_App_Bild_2024_08_01_um_13_27_26_c743e799_46ca3e3f2c.jpg"/> 
+</Gallery>
 </template>
 
 <script setup lang="ts">
