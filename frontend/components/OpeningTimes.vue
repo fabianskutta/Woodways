@@ -2,15 +2,15 @@
     <section id="openingTimes" class="openingTimes" >
         <div class="openingTimes-container">
             <div class="column1">
-                <h2>Unsere Winter-Öffnungszeiten:</h2>
+                <h2>Unsere Öffnungszeiten:</h2>
                 <p class="openingTimes-text">Bitte prüfe immer unsere aktuellen Öffnungszeiten bei Google:</p>
                 <Btn1 target="_blank" href="https://maps.app.goo.gl/pWN6rM5LgncLkmNA7">zu Google</Btn1>
             </div>
             <div class="column2">
                 <div class="openingTimes-times">
                     <p><span>DI: </span> 15:00-18:00 Uhr</p>
-                    <p><span>MI </span> 10:30-13:00 Uhr 15:00-19 Uhr</p>
-                    <p><span>MI </span> 10:30-13:00 Uhr</p>
+                    <p><span>MI: </span> 10:30-13:00 Uhr 15:00-19 Uhr</p>
+                    <p><span>DO: </span> 10:30-13:00 Uhr</p>
                     <p><span>FR + SA: </span> 10:00 - 17:00 Uhr</p>
                 </div>
             </div>
