@@ -11,18 +11,6 @@
             </div>
             <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/IMG_20230908_WA_0018_b77d292bc9.jpg">
         </a>
-        <a class="teaser-item" href="/cafe">
-            <div class="teaser-item-container">
-                <h3>Cafe</h3>
-                <ul class="teaser-tags">
-                    <li>Casa Eis</li>
-                    <li>Café</li>
-                    <li>Kuchen</li>
-                    <li>Vegan</li>
-                </ul>
-            </div>
-            <img class="teaser-item-bg" src="https://cms.woodways.ms/uploads/350096692_787350306108702_1803515624141503954_n_b271bb8858.jpeg">
-        </a>
         <a class="teaser-item" href="/veranstaltungen">
             <div class="teaser-item-container">
                 <h3>Veranstaltungen</h3>

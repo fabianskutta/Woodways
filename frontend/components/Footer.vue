@@ -7,7 +7,7 @@
             <ul>
                 <h4>Was jetzt?</h4>
                 <li><a href="/conceptstore">Conceptstore</a></li>
-                <li><a href="/cafe">Café</a></li>
+                <li><a href="/veranstaltungen">Veranstaltungen</a></li>
             </ul>
             <ul>
                 <h4>Rechtliches</h4>

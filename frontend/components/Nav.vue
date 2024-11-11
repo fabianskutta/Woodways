@@ -5,7 +5,6 @@
             
             <li><nuxt-link to="/" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Home</nuxt-link></li>
             <li><nuxt-link to="/conceptstore" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Conceptstore</nuxt-link></li>
-            <li><nuxt-link to="/cafe" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Café</nuxt-link></li>
             <li><nuxt-link to="/Veranstaltungen" class="menuItem" active-class="menuItem-active" @click="toggleShowMenu">Veranstaltungen</nuxt-link></li>
         </ul>
         <a href="/">
