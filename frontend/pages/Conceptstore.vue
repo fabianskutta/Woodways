@@ -5,13 +5,6 @@
             <h2>Nachhaltige Schätze für Herz und Zuhause</h2>
             <p>Erlebe die faszinierende Vielfalt unserer sorgfältig ausgewählten, fair produzierten und umweltfreundlichen Produkten. Jedes Einzelstück birgt seine eigene einzigartige Geschichte und wartet nur darauf, von dir entdeckt zu werden.</p>
   </div>
-  <LogoGrid>
-    <img src="https://cms.woodways.ms/uploads/My_Esel_1_9ccd87d750.png"/> 
-    <img src="https://cms.woodways.ms/uploads/knalle_8368a94f0c.png"/>
-    <img class="invert" src="https://cms.woodways.ms/uploads/herr_Hase_123fcee71c.png"/> 
-    <img src="https://cms.woodways.ms/uploads/ath_46ca950117.png"/> 
-    <img src="https://cms.woodways.ms/uploads/Hofgenuss_fe03d0f1d2.png"/> 
-  </LogoGrid>
 </div>
 <Gallery>
   <img v-motion-slide-visible-bottom src="https://cms.woodways.ms/uploads/Whats_App_Bild_bbc017657b.jpg"/> 

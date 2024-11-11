@@ -35,7 +35,7 @@
 
 .teaser-item {
     position: relative;
-    flex-basis: calc(33.3333%);
+    flex-basis: calc(50%);
     height: 400px;
     width: 400px;
     overflow: hidden;
